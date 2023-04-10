@@ -1,0 +1,78 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(white,rgb(216, 216, 199));
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.photo img {
+	width: 150px;
+	margin-right: 20px;
+}
+
+.contact-info h1 {
+	margin: 0;
+	font-size: 36px;
+  font-style: italic;
+}
+
+.contact-info p {
+	margin: 5px 0;
+	font-size: 15px;
+}
+
+
+.project {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project h2 {
+  margin: 0;
+  font-size: 0.5rem;
+}
+
+.project p {
+  margin: 0.5rem 0;
+  font-size: 5px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.project a:hover {
+  background-color: #0056b3;
+}
+
+
+
+.video iframe {
+	display: block;
+	margin: 0 auto;
+}

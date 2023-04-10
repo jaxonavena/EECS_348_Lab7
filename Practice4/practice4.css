@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: bold;
+  color: rgb(101, 64, 20);
+}
