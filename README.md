@@ -1,1 +1,1 @@
-# EECS_348_Lab7
+# EECS-348-Lab7
